@@ -13,10 +13,9 @@
 </head>
 <main>
     <div class="row g-5">
-
         <div class="col-md-7 col-lg-8">
             <h4 class="mb-3">Billing address</h4>
-            <form class="needs-validation" novalidate="">
+            <form class="needs-validation" novalidate="" id="form">
                 <div class="row g-3">
                     <div class="col-sm-6">
                         <label for="firstName" class="form-label">First name</label>
@@ -63,10 +62,13 @@
 
                     <div class="col-md-5">
                         <label for="country" class="form-label">City</label>
-                        <select class="form-select" id="country" required="">
+                        <select class="form-select" id="city" required="">
                             <option value="">Choose...</option>
                             <option>Medellin</option>
                             <option>Bello</option>
+                            <option>Santa Elena</option>
+
+
                         </select>
                         <div class="invalid-feedback">
                             Please select a valid city.
